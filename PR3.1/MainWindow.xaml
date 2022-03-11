@@ -3,9 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Icon="Resources/Picture.ico"
         xmlns:local="clr-namespace:PR3._1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="450" 
+        Title="Окно" Height="450" Width="450" 
        ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Window.Background>
         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
