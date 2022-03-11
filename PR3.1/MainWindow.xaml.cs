@@ -23,6 +23,8 @@ namespace PR3._1
         public MainWindow()
         {
             InitializeComponent();
+            Manager.MainFrame = MainFrame;
+            MainFrame.Navigate(new AvtorizationWindow());
         }
     }
 }

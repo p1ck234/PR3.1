@@ -4,6 +4,12 @@
              xmlns:local="clr-namespace:PR3._1"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="TextBlock" >
+            <Setter Property="FontFamily" Value="MS Reference Sans Serif"/>
+        </Style>
+        <Style TargetType="Button" >
+            <Setter Property="FontFamily" Value="MS Reference Sans Serif"/>
+            <Setter Property="Background" Value="#FFB4B4B4"/>
+        </Style>
     </Application.Resources>
 </Application>

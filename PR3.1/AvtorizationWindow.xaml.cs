@@ -37,9 +37,7 @@ namespace PR3._1
             if (tbLogin.Text == Login && pbPass.Password == Pass)
             {
                 MessageBox.Show("Вы вошли");
-                MainWindow mw = new MainWindow();
-                mw.Show();
-                this.Close();
+                Manager.MainFrame.Navigate(new CreateWindow());
             }
             else
             {
@@ -63,7 +61,8 @@ namespace PR3._1
 
         private void btnExit_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            Application.Current.MainWindow.Close();
+
         }
     }
 }
