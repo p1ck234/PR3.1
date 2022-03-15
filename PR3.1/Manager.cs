@@ -7,7 +7,7 @@ using System.Windows.Controls;
 
 namespace PR3._1
 {
-    internal class Manager
+    public class Manager
     {
         public static Frame MainFrame { get; set; }
     }
